@@ -16,10 +16,14 @@
     
 }
 
+.logo{
+    margin-left: 60px;
+    position: relative;
+}
 
 .logo img{
     margin-top: 7px;
-    width: 30px;
+    width: 50px;
     border-radius: 50%;
     margin-left: 50px;
     box-shadow: 2px 1px 5px 0 #6c07f9;
@@ -32,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 50px;
+    height: 70px;
     box-shadow: 0px 0px 10px #1c11ef;
     background-color: #6C63FF;
     z-index: 10;
@@ -59,13 +63,11 @@
     text-decoration: underline; 
 }
 
-.search{
-    margin-right: 50px;
-}
 
 .search{
     position: relative;
     height: 20px;
+    margin-right: 140px;
 }
 
 .search input{
@@ -76,7 +78,7 @@
     height: 32px;
     text-align: center;
     border-radius: 6px;
-    width: 150px;
+    width: 240px;
     box-shadow: 8px 5px 20px 1px #5D3891;
 }
 
@@ -99,12 +101,72 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -10;
+}
+
+.main-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-home{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.home{
+    margin-left: -70px;
+}
+
+.home h2:nth-of-type(1){
+    font-size: 3em;
+    color: #342cd0;
+    font-weight: 900;
+}
+
+.home h2:nth-of-type(2){
+    font-size: 5em;
+    color: #F99417;
+    font-weight: 700;
+}
+
+.home p{
+    margin-top: 60px;
+    color: #F99417;
+    font-size: 2em;
+}
+
+.home button{
+    margin-top: 40px;
+    background-color: #5D3891;
+    height: 40px;
+    width: 50%;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    transition: .3s;
+}
+
+.home button:hover{
+    background-color: #E8E2E2;
+    color: #522592;
+    transform: scale(1.2);
+    left: 10px;
+}
+
+.home-img img{
+    margin-top: -50px;
 }
 
 .main-header h1{
     font-size: 1.8em;
-    position: absolute;
-    margin-top: 70px;
+    /* position: absolute; */
+    margin-top: 90px;
     text-align: center;
     width: 100%;
 }
@@ -124,4 +186,16 @@
     border: 1px solid #1c11ef;
     border-radius: 6px;
     padding: 3px;
+}
+
+.products-img{
+    display: flex;
+    position: relative;
+    margin-top: -40px;
+    /* justify-content: space-evenly; */
+}
+
+.item-1{
+ width: 200px;
+ background-color: #F99417;
 }
