@@ -345,7 +345,6 @@
 
 .contact{
     text-align: center;
-    text-decoration: underline;
     font-size: 2em;
     font-weight: 700;
     margin-top: 20px;
@@ -354,6 +353,46 @@
     height: 520px;
     max-width: 720px;
     box-shadow: 0 0 20px #522592;
+}
+
+.contact p{
+    text-decoration: underline;
+}
+
+.social, .whatsapp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.media img{
+    width: 40px;
+    border: 1px solid #522592;
+    border-radius: 8px;
+    /* width: 50px; */
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.media img:hover{
+    box-shadow: 0 0 20px #F99417;
+    border-radius: 50%;
+}
+
+.whatsapp a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #F99417;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #5D3891;
+    width: 170px;
+    font-size: 20px;
+}
+
+.whatsapp img{
+    width: 40px;
 }
 
 .footer h4{
