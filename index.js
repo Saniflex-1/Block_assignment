@@ -1,5 +1,6 @@
-const show = document.querySelector(".toggle");
+const show = document.querySelector(".submit");
+const sh = document.querySelector(".sent");
 
 show.addEventListener("click", ()=>{
-    document.body.style.backgroundColor = "red";
+    sh.classList.add("showSent");
 })
