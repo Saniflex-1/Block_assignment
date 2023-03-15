@@ -52,15 +52,30 @@
 }
 
 .navBar a{
+    display: inline-block;
+    position: relative;
     text-decoration: none;
     color: var(--textColor--);
     font-size: 1.5em;
     transition: .3s;
 }
 
-.navBar a:hover{
-    /* color: var(--backgroundColor--); */
-    text-decoration: underline; 
+.navBar a::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+    transform-origin: right;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.navBar a:hover::after{
+    transform: scale(1);
+    transform-origin: left;
 }
 
 
