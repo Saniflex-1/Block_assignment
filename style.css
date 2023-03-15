@@ -94,7 +94,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--backgroundColor--);
-    background: url(Images/images/launching.svg);
+    background: url(Images/images/others/launching.svg);
     filter: blur(5px);
     -webkit-filter: blur(1.2px);
     width: 100vw;
@@ -224,5 +224,132 @@
    }
 
 .img img{
-    width: 40px;
+    width: 70px;
+}
+
+.featured-pro{
+    
+    position: absolute;
+    /* margin-top: -20px; */
+    background-color: #522592;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    /* height: 100%; */
+}
+
+.hello{
+    position: relative;
+    background: url(Images/images/others/fashion_photoshoot.svg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left img{
+    position: absolute;
+    left: 0;
+    /* width: 50px; */
+    z-index: 10;
+}
+
+.right img{
+    position: absolute;
+    width: 50px;
+}
+
+.featured-products h3{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 120px;
+    color: #000;
+    font-size: 35px;
+}
+
+.featured-products h3::after{
+    position: absolute;
+    content: "";
+    border-bottom: 6px solid #F99417;
+    width: 90%;
+    height: 10px;
+    left: -2px;
+    top: 30px;
+
+}
+
+.featured-products{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.fff{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.feart-img-1{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 120px;
+    gap: 10px;
+
+
+}
+
+.featured .pic{
+    position: relative;
+    background-color: #e5e3e3;
+    width: 245.9px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featured p{
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.featured img{
+    width: 20px;
+}
+
+.see-more{
+    width: 70px;
+    background-color: #1c11ef;
+    font-size: 25px;
+}
+
+.contact{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 520px;
+    max-width: 720px;
+    box-shadow: 0 0 20px #522592;
+}
+
+.footer h4{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #F99417;
+    align-items: center;
+    color: white;
+    font-family: "poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
