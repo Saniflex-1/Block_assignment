@@ -191,11 +191,38 @@
 .products-img{
     display: flex;
     position: relative;
-    margin-top: -40px;
+    margin-top: -80px;
     /* justify-content: space-evenly; */
 }
 
 .item-1{
- width: 200px;
+ width: 500px;
  background-color: #F99417;
+ height: 130px;
+ text-align: center;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ color: #fff;
+ font-weight: 700;
+ font-family: "poppins";
+}
+
+.item-2{
+    width: 500px;
+    background-color: #522592;
+    height: 130px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 700;
+    font-family: "poppins";
+   }
+
+.img img{
+    width: 40px;
 }
